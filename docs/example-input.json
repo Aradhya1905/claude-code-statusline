@@ -1,0 +1,17 @@
+{
+  "model": { "display_name": "Opus 5" },
+  "effort": { "level": "high" },
+  "fast_mode": false,
+  "thinking": { "enabled": true },
+  "workspace": { "current_dir": "." },
+  "output_style": { "name": "Concise" },
+  "context_window": {
+    "used_percentage": 45,
+    "total_input_tokens": 453000,
+    "context_window_size": 1000000
+  },
+  "rate_limits": {
+    "five_hour":  { "used_percentage": 43, "resets_at": 4102490400 },
+    "seven_day":  { "used_percentage": 48, "resets_at": 4102664400 }
+  }
+}

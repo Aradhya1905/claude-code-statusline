@@ -1,0 +1,28 @@
+{
+  "_comment": "Copy to ~/.claude/statusline-config.json and keep only the keys you want to change. Deep-merged over the defaults in statusline.js.",
+
+  "bar": { "width": 10, "show": true },
+
+  "effortStyle": "bar",
+  "effortBar": {
+    "filled": "■",
+    "empty": "·",
+    "cellsPerLevel": 1,
+    "brackets": ["[", "]"],
+    "showLabel": true
+  },
+
+  "showWorktree": false,
+  "worktreeLabel": "auto",
+
+  "timeFormat": "h12",
+  "showResetCountdown": true,
+  "showSeparators": true,
+  "separator": "│",
+
+  "icons": {
+    "git": "",
+    "thinkingOn": "🚀",
+    "thinkingOff": "💤"
+  }
+}
